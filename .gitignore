@@ -1,28 +1,43 @@
-# Gradle
-.gradle/
+HELP.md
+.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# IDE
-.idea/
-*.iml
-*.iws
-.vscode/
-.settings/
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-out/
+.settings
+.springBeans
+.sts4-cache
 bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Secrets and local config
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Secrets and local config ###
 .env
 .env.local
 *.pem
 *.key
-
-# Logs
-*.log
-logs/
-
-# OS
-.DS_Store
